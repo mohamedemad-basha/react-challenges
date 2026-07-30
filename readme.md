@@ -22,7 +22,7 @@ This repository contains my React challenges completed throughout my learning jo
 
 | # | Challenge | Concepts | Live Demo | Status |
 |:-:|-----------|----------|:---------:|:------:|
-| 01 | Profile Card | JSX, Components, Props | Coming Soon | ✅ |
+| 01 | Profile Card | JSX, Components, Props | [demo](https://profile-card-rho-bay.vercel.app/) | ✅ |
 
 > More challenges will be added as I continue learning React.
 
