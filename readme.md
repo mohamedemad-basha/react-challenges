@@ -4,7 +4,9 @@
 
 A collection of React challenges built while learning React.
 
-<img src="https://skillicons.dev/icons?i=react,js,html,css" />
+<p>
+  <img src="https://skillicons.dev/icons?i=react,js,html,css" />
+</p>
 
 </div>
 
@@ -12,21 +14,21 @@ A collection of React challenges built while learning React.
 
 ## 📖 About
 
-This repository contains the React challenges I complete throughout my learning journey. Each challenge focuses on practicing specific React concepts and improving code quality through hands-on implementation.
+This repository contains my React challenges completed throughout my learning journey. Each challenge focuses on practicing core React concepts through hands-on implementation.
 
 ---
 
 ## 🚀 Challenges
 
-| # | Challenge | Concepts | Demo | Source | Status |
-|:-:|-----------|----------|:----:|:------:|:------:|
-| 01 | Profile Card | JSX, Components, Props | 🚧 | 📂 | ✅ |
+| # | Challenge | Concepts | Live Demo | Status |
+|:-:|-----------|----------|:---------:|:------:|
+| 01 | Profile Card | JSX, Components, Props | Coming Soon | ✅ |
 
-> The table will be updated as new challenges are completed.
+> More challenges will be added as I continue learning React.
 
 ---
 
-## 🛠️ Technologies
+## 🛠️ Tech Stack
 
 - React
 - JavaScript (ES6+)
@@ -41,40 +43,25 @@ This repository contains the React challenges I complete throughout my learning 
 react-challenges/
 │
 ├── challenge-01-profile-card/
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── README.md
 │
 └── README.md
 ```
 
 ---
 
-## ▶️ Running Locally
+## ▶️ Running a Challenge
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/react-challenges.git
-
-cd react-challenges/challenge-01-profile-card
-
+cd challenge-01-profile-card
 npm install
-
 npm start
 ```
 
 ---
 
-## 📈 Progress
+## 👨‍💻 Author
 
-| Completed | Total |
-|-----------|-------|
-| 1 | 1 |
+**Mohamed Basha**
 
----
-
-<div align="center">
-
-Made with ❤️ while learning React.
-
-</div>
+[![GitHub](https://img.shields.io/badge/GitHub-mohamedemad--basha-181717?logo=github)](https://github.com/mohamedemad-basha)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed%20Basha-0A66C2?logo=linkedin)](https://www.linkedin.com/in/mohamed-basha-6239342a8/)
