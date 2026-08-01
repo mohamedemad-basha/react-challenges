@@ -6,6 +6,11 @@ export default function Counter() {
   const date = new Date();
   date.setDate(date.getDate() + count);
 
+  function handleReset() {
+    setCount(0);
+    setStep(1);
+  }
+
   return (
     <div>
       <div>
@@ -40,7 +45,7 @@ export default function Counter() {
         {date.toDateString()}
       </p>
 
-      <button onClick={() => setCount(0)}>Reset</button>
+      <button onClick={handleReset}>Reset</button>
     </div>
   );
 }
