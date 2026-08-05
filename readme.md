@@ -33,12 +33,17 @@ Larger React applications are published as separate repositories with their own 
 
 ## 🧩 Challenges
 
-|  #  | Challenge       | Concepts                     | Status |
-| :-: | --------------- | ---------------------------- | :----: |
-| 01  | Profile Card    | JSX, Components, Props       |   ✅   |
-| 02  | Date Counter    | State, Events                |   ✅   |
-| 03  | Date Counter v2 | State, Controlled Inputs     |   ✅   |
-| 04  | Flashcards      | State, Conditional Rendering |   ✅   |
+| # | Challenge | Folder | Concepts | Status |
+|:-:|-----------|--------|----------|:------:|
+| 01 | Profile Card | `challenge-01-profile-card` | JSX, Components, Props | ✅ |
+| 02 | Date Counter | `challenge-02-date-counter` | State (`useState`), Event Handling, Derived State | ✅ |
+| 03 | Date Counter v2 | `challenge-03-date-counter-v2` | Controlled Inputs, Multiple State Variables, Derived State | ✅ |
+| 04 | Flashcards | `challenge-04-flashcards` | State, Conditional Rendering, Event Handling | ✅ |
+| 05 | Accordion | `challenge-05-accordion-component` | State, Props, Component Composition | ✅ |
+| 06 | Accordion v2 | `challenge-06-accordion-component-v2` | Component Composition, Children Prop, Reusable Components | ✅ |
+| 07 | Tip Calculator | `challenge-07-tip-calculator` | Lifting State Up, Controlled Components, Derived State | ✅ |
+
+> More challenges will be added as I continue learning React.
 
 ---
 
@@ -60,6 +65,9 @@ react-challenges/
 ├── challenge-02-date-counter/
 ├── challenge-03-date-counter-v2/
 ├── challenge-04-flashcards/
+├── challenge-05-accordion-component/
+├── challenge-06-accordion-component-v2/
+├── challenge-07-tip-calculator/
 │
 └── README.md
 ```
