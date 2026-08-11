@@ -27,6 +27,7 @@ Larger React applications are published as separate repositories with their own 
 | Pizza Menu | [Repository](https://github.com/mohamedemad-basha/react-pizza-menu) | [🔗 Demo](https://pizza-menu-basha.vercel.app/) | ✅ |
 | Far Away | [Repository](https://github.com/mohamedemad-basha/react-far-away) | [🔗 Demo](https://react-far-away-chi.vercel.app/) | ✅ |
 | Eat-N-Split | [Repository](https://github.com/mohamedemad-basha/eat-n-split) | [🔗 Demo](https://eat-n-split-lyart-one.vercel.app/) | ✅ |
+| useLibrary | [Repository](https://github.com/mohamedemad-basha/uselibrary) | [🔗 Demo](https://uselibrary.vercel.app/) | ✅ |
 
 > More projects will be added as I continue learning.
 
