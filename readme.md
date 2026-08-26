@@ -2,7 +2,7 @@
 
 # ⚛️ React Challenges
 
-A collection of React challenges built while learning React.
+A collection of React challenges and projects built while learning React.
 
 <p>
   <img src="https://skillicons.dev/icons?i=react,js,html,css" />
@@ -14,36 +14,55 @@ A collection of React challenges built while learning React.
 
 ## 📖 About
 
-This repository contains the React challenges I complete throughout my learning journey. Each challenge focuses on practicing core React concepts through hands-on implementation.
+This repository contains the React challenges I complete throughout my learning journey, mainly while following Jonas Schmedtmann's React course.
 
-Larger React applications are published as separate repositories with their own documentation and live demos.
+Each challenge focuses on practicing specific React concepts through hands-on implementation.
+
+In addition to the course challenges and projects, I also build independent React projects to apply what I learn and practice concepts beyond the course exercises.
 
 ---
 
-##  Mini Projects
+## 🚀 Projects
 
-| Project | Repository | Live Demo | Status |
-|---------|------------|:---------:|:------:|
-| Pizza Menu | [Repository](https://github.com/mohamedemad-basha/react-pizza-menu) | [🔗 Demo](https://pizza-menu-basha.vercel.app/) | ✅ |
-| Far Away | [Repository](https://github.com/mohamedemad-basha/react-far-away) | [🔗 Demo](https://react-far-away-chi.vercel.app/) | ✅ |
-| Eat-N-Split | [Repository](https://github.com/mohamedemad-basha/eat-n-split) | [🔗 Demo](https://eat-n-split-lyart-one.vercel.app/) | ✅ |
-| useLibrary | [Repository](https://github.com/mohamedemad-basha/uselibrary) | [🔗 Demo](https://uselibrary.vercel.app/) | ✅ |
+These projects are published as separate repositories with their own documentation and live demos.
 
-> More projects will be added as I continue learning.
+### 🎓 Course Projects
+
+Projects built while following the React course by **Jonas Schmedtmann**.
+
+| Project     | Repository                                                          |                      Live Demo                       | Status |
+| ----------- | ------------------------------------------------------------------- | :--------------------------------------------------: | :----: |
+| Pizza Menu  | [Repository](https://github.com/mohamedemad-basha/react-pizza-menu) |   [🔗 Demo](https://pizza-menu-basha.vercel.app/)    |   ✅   |
+| Far Away    | [Repository](https://github.com/mohamedemad-basha/react-far-away)   |  [🔗 Demo](https://react-far-away-chi.vercel.app/)   |   ✅   |
+| Eat-N-Split | [Repository](https://github.com/mohamedemad-basha/eat-n-split)      | [🔗 Demo](https://eat-n-split-lyart-one.vercel.app/) |   ✅   |
+| usePopcorn  | [Repository](https://github.com/mohamedemad-basha/usepopcorn)       |   [🔗 Demo](https://usepopcorn-basha.vercel.app/)    |   ✅   |
+
+### 🛠️ Independent Projects
+
+Projects I built independently to apply and extend the React concepts I learned.
+
+| Project    | Repository                                                    |                 Live Demo                 | Status |
+| ---------- | ------------------------------------------------------------- | :---------------------------------------: | :----: |
+| useLibrary | [Repository](https://github.com/mohamedemad-basha/uselibrary) | [🔗 Demo](https://uselibrary.vercel.app/) |   ✅   |
+
+> More projects will be added as I continue learning and building with React.
 
 ---
 
 ## 🧩 Challenges
 
-| # | Challenge | Folder | Concepts | Status |
-|:-:|-----------|--------|----------|:------:|
-| 01 | Profile Card | `challenge-01-profile-card` | JSX, Components, Props | ✅ |
-| 02 | Date Counter | `challenge-02-date-counter` | State (`useState`), Event Handling, Derived State | ✅ |
-| 03 | Date Counter v2 | `challenge-03-date-counter-v2` | Controlled Inputs, Multiple State Variables, Derived State | ✅ |
-| 04 | Flashcards | `challenge-04-flashcards` | State, Conditional Rendering, Event Handling | ✅ |
-| 05 | Accordion | `challenge-05-accordion-component` | State, Props, Component Composition | ✅ |
-| 06 | Accordion v2 | `challenge-06-accordion-component-v2` | Component Composition, Children Prop, Reusable Components | ✅ |
-| 07 | Tip Calculator | `challenge-07-tip-calculator` | Lifting State Up, Controlled Components, Derived State | ✅ |
+|  #  | Challenge          | Folder                                | Concepts                                                   | Status |
+| :-: | ------------------ | ------------------------------------- | ---------------------------------------------------------- | :----: |
+| 01  | Profile Card       | `challenge-01-profile-card`           | JSX, Components, Props                                     |   ✅   |
+| 02  | Date Counter       | `challenge-02-date-counter`           | State (`useState`), Event Handling, Derived State          |   ✅   |
+| 03  | Date Counter v2    | `challenge-03-date-counter-v2`        | Controlled Inputs, Multiple State Variables, Derived State |   ✅   |
+| 04  | Flashcards         | `challenge-04-flashcards`             | State, Conditional Rendering, Event Handling               |   ✅   |
+| 05  | Accordion          | `challenge-05-accordion-component`    | State, Props                                               |   ✅   |
+| 06  | Accordion v2       | `challenge-06-accordion-component-v2` | Children Prop, Reusable Components                         |   ✅   |
+| 07  | Tip Calculator     | `challenge-07-tip-calculator`         | Lifting State Up, Controlled Components, Derived State     |   ✅   |
+| 08  | Text Expander      | `challenge-08-text-expender`          | State, Props, Event Handling                               |   ✅   |
+| 09  | Currency Converter | `challenge-09-currency-converter`     | `useEffect`, Data Fetching, Controlled Inputs, State       |   ✅   |
+| 10  | useGeolocation     | `challenge-10-usegeolocation`         | Custom Hooks, `useState`, Browser Geolocation API          |   ✅   |
 
 > More challenges will be added as I continue learning React.
 
@@ -60,7 +79,6 @@ Larger React applications are published as separate repositories with their own 
 
 ## 📂 Repository Structure
 
-```text
 react-challenges/
 │
 ├── challenge-01-profile-card/
@@ -70,19 +88,19 @@ react-challenges/
 ├── challenge-05-accordion-component/
 ├── challenge-06-accordion-component-v2/
 ├── challenge-07-tip-calculator/
+├── challenge-08-text-expender/
+├── challenge-09-currency-converter/
+├── challenge-10-usegeolocation/
 │
 └── README.md
-```
 
 ---
 
 ## ▶️ Running a Challenge
 
-```bash
 cd challenge-01-profile-card
 npm install
 npm start
-```
 
 Replace the folder name with the challenge you want to run.
 
