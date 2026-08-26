@@ -79,6 +79,7 @@ Projects I built independently to apply and extend the React concepts I learned.
 
 ## 📂 Repository Structure
 
+```text
 react-challenges/
 │
 ├── challenge-01-profile-card/
@@ -93,14 +94,17 @@ react-challenges/
 ├── challenge-10-usegeolocation/
 │
 └── README.md
+```
 
 ---
 
 ## ▶️ Running a Challenge
 
+```bash
 cd challenge-01-profile-card
 npm install
 npm start
+```
 
 Replace the folder name with the challenge you want to run.
 
