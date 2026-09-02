@@ -44,6 +44,8 @@ Projects I built independently to apply and extend the React concepts I learned.
 | Project    | Repository                                                    |                 Live Demo                 | Status |
 | ---------- | ------------------------------------------------------------- | :---------------------------------------: | :----: |
 | useLibrary | [Repository](https://github.com/mohamedemad-basha/uselibrary) | [🔗 Demo](https://uselibrary.vercel.app/) |   ✅   |
+| MealPlan Studio | [Repository](https://github.com/mohamedemad-basha/mealplan-studio) | [🔗 Demo](https://mealplan-studio-basha.vercel.app/) |   ✅   |
+
 
 > More projects will be added as I continue learning and building with React.
 
