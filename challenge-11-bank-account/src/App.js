@@ -138,7 +138,7 @@ export default function App() {
           <p>
             <button
               onClick={() => dispatch({ type: "payLoan" })}
-              disabled={!isActive}
+              disabled={!isActive || loan === 0}
             >
               Pay loan
             </button>
