@@ -30,12 +30,13 @@ These projects are published as separate repositories with their own documentati
 
 Projects built while following the React course by **Jonas Schmedtmann**.
 
-| Project     | Repository                                                          |                      Live Demo                       | Status |
-| ----------- | ------------------------------------------------------------------- | :--------------------------------------------------: | :----: |
-| Pizza Menu  | [Repository](https://github.com/mohamedemad-basha/react-pizza-menu) |   [🔗 Demo](https://pizza-menu-basha.vercel.app/)    |   ✅   |
-| Far Away    | [Repository](https://github.com/mohamedemad-basha/react-far-away)   |  [🔗 Demo](https://react-far-away-chi.vercel.app/)   |   ✅   |
-| Eat-N-Split | [Repository](https://github.com/mohamedemad-basha/eat-n-split)      | [🔗 Demo](https://eat-n-split-lyart-one.vercel.app/) |   ✅   |
-| usePopcorn  | [Repository](https://github.com/mohamedemad-basha/usepopcorn)       |   [🔗 Demo](https://usepopcorn-basha.vercel.app/)    |   ✅   |
+| Project     | Repository                                                          |                      Live Demo                            | Status |
+| ----------- | ------------------------------------------------------------------- | :------------------------------------------------------:  | :----: |
+| Pizza Menu  | [Repository](https://github.com/mohamedemad-basha/react-pizza-menu) |   [🔗 Demo](https://pizza-menu-basha.vercel.app/)        |   ✅   |
+| Far Away    | [Repository](https://github.com/mohamedemad-basha/react-far-away)   |  [🔗 Demo](https://react-far-away-chi.vercel.app/)       |   ✅   |
+| Eat-N-Split | [Repository](https://github.com/mohamedemad-basha/eat-n-split)      | [🔗 Demo](https://eat-n-split-lyart-one.vercel.app/)     |   ✅   |
+| usePopcorn  | [Repository](https://github.com/mohamedemad-basha/usepopcorn)       |   [🔗 Demo](https://usepopcorn-basha.vercel.app/)        |   ✅   |
+| react-quiz  | [Repository](https://github.com/mohamedemad-basha/react-quiz)       |   [🔗 Demo](https://react-quiz-nine-zeta.vercel.app/)    |   ✅   |
 
 ### 🛠️ Independent Projects
 
