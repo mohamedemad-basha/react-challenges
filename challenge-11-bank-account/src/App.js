@@ -75,86 +75,84 @@ export default function App() {
     <div className="App">
       <h1>useReducer Bank Account</h1>
 
+      {!isActive && (
+        <p>
+          <button onClick={() => dispatch({ type: "openAccount" })}>
+            Open account
+          </button>
+        </p>
+      )}
+
       {isActive && (
         <>
           <p>Balance: {balance}</p>
           <p>Loan: {loan}</p>{" "}
+          <input
+            type="text"
+            value={deposit}
+            onChange={(e) => setDeposit(+e.target.value)}
+            placeholder="50"
+            disabled={!isActive}
+          />
+          <button
+            onClick={() => {
+              dispatch({ type: "deposit", payload: deposit });
+              setDeposit("");
+            }}
+            disabled={!isActive}
+          >
+            Deposit
+          </button>
+          <input
+            type="text"
+            value={withdraw}
+            onChange={(e) => setWithdraw(+e.target.value)}
+            placeholder="50"
+            disabled={!isActive}
+          />
+          <button
+            onClick={() => {
+              dispatch({ type: "withdraw", payload: withdraw });
+              setWithdraw("");
+            }}
+            disabled={!isActive}
+          >
+            Withdraw
+          </button>
+          <input
+            type="text"
+            value={loani}
+            onChange={(e) => setLoani(+e.target.value)}
+            placeholder="1000"
+            disabled={!isActive}
+          />
+          <button
+            onClick={() => {
+              dispatch({ type: "requestLoan", payload: loani });
+              setLoani("");
+            }}
+            disabled={!isActive}
+          >
+            Request a loan
+          </button>
+          <p>
+            <button
+              onClick={() => dispatch({ type: "payLoan" })}
+              disabled={!isActive}
+            >
+              Pay loan
+            </button>
+          </p>
+          <p>
+            <button
+              onClick={() => dispatch({ type: "closeAccount" })}
+              disabled={!isActive || loan > 0 || balance !== 0}
+            >
+              Close account
+            </button>
+          </p>
         </>
       )}
-
-      <p>
-        <button onClick={() => dispatch({ type: "openAccount" })}>
-          Open account
-        </button>
-      </p>
-
-      <input
-        type="text"
-        value={deposit}
-        onChange={(e) => setDeposit(+e.target.value)}
-        placeholder="50"
-        disabled={!isActive}
-      />
-      <button
-        onClick={() => {
-          dispatch({ type: "deposit", payload: deposit });
-          setDeposit("");
-        }}
-        disabled={!isActive}
-      >
-        Deposit
-      </button>
-
-      <input
-        type="text"
-        value={withdraw}
-        onChange={(e) => setWithdraw(+e.target.value)}
-        placeholder="50"
-        disabled={!isActive}
-      />
-      <button
-        onClick={() => {
-          dispatch({ type: "withdraw", payload: withdraw });
-          setWithdraw("");
-        }}
-        disabled={!isActive}
-      >
-        Withdraw
-      </button>
-
-      <input
-        type="text"
-        value={loani}
-        onChange={(e) => setLoani(+e.target.value)}
-        placeholder="1000"
-        disabled={!isActive}
-      />
-      <button
-        onClick={() => {
-          dispatch({ type: "requestLoan", payload: loani });
-          setLoani("");
-        }}
-        disabled={!isActive}
-      >
-        Request a loan
-      </button>
-
-      <p>
-        <button
-          onClick={() => dispatch({ type: "payLoan" })}
-          disabled={!isActive}
-        >
-          Pay loan
-        </button>
-      </p>
-      <p>
-        <button
-          onClick={() => dispatch({ type: "closeAccount" })}
-          disabled={!isActive || loan > 0 || balance !== 0}
-        >
-          Close account
-        </button>
-      </p>
     </div>
   );
 }
