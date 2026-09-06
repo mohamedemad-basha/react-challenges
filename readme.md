@@ -30,23 +30,22 @@ These projects are published as separate repositories with their own documentati
 
 Projects built while following the React course by **Jonas Schmedtmann**.
 
-| Project     | Repository                                                          |                      Live Demo                            | Status |
-| ----------- | ------------------------------------------------------------------- | :------------------------------------------------------:  | :----: |
-| Pizza Menu  | [Repository](https://github.com/mohamedemad-basha/react-pizza-menu) |   [🔗 Demo](https://pizza-menu-basha.vercel.app/)        |   ✅   |
-| Far Away    | [Repository](https://github.com/mohamedemad-basha/react-far-away)   |  [🔗 Demo](https://react-far-away-chi.vercel.app/)       |   ✅   |
-| Eat-N-Split | [Repository](https://github.com/mohamedemad-basha/eat-n-split)      | [🔗 Demo](https://eat-n-split-lyart-one.vercel.app/)     |   ✅   |
-| usePopcorn  | [Repository](https://github.com/mohamedemad-basha/usepopcorn)       |   [🔗 Demo](https://usepopcorn-basha.vercel.app/)        |   ✅   |
-| react-quiz  | [Repository](https://github.com/mohamedemad-basha/react-quiz)       |   [🔗 Demo](https://react-quiz-nine-zeta.vercel.app/)    |   ✅   |
+| Project     | Repository                                                          |                      Live Demo                       | Status |
+| ----------- | ------------------------------------------------------------------- | :--------------------------------------------------: | :----: |
+| Pizza Menu  | [Repository](https://github.com/mohamedemad-basha/react-pizza-menu) |   [🔗 Demo](https://pizza-menu-basha.vercel.app/)    |   ✅   |
+| Far Away    | [Repository](https://github.com/mohamedemad-basha/react-far-away)   |  [🔗 Demo](https://react-far-away-chi.vercel.app/)   |   ✅   |
+| Eat-N-Split | [Repository](https://github.com/mohamedemad-basha/eat-n-split)      | [🔗 Demo](https://eat-n-split-lyart-one.vercel.app/) |   ✅   |
+| usePopcorn  | [Repository](https://github.com/mohamedemad-basha/usepopcorn)       |   [🔗 Demo](https://usepopcorn-basha.vercel.app/)    |   ✅   |
+| react-quiz  | [Repository](https://github.com/mohamedemad-basha/react-quiz)       | [🔗 Demo](https://react-quiz-nine-zeta.vercel.app/)  |   ✅   |
 
 ### 🛠️ Independent Projects
 
 Projects I built independently to apply and extend the React concepts I learned.
 
-| Project    | Repository                                                    |                 Live Demo                 | Status |
-| ---------- | ------------------------------------------------------------- | :---------------------------------------: | :----: |
-| useLibrary | [Repository](https://github.com/mohamedemad-basha/uselibrary) | [🔗 Demo](https://uselibrary.vercel.app/) |   ✅   |
+| Project         | Repository                                                         |                      Live Demo                       | Status |
+| --------------- | ------------------------------------------------------------------ | :--------------------------------------------------: | :----: |
+| useLibrary      | [Repository](https://github.com/mohamedemad-basha/uselibrary)      |      [🔗 Demo](https://uselibrary.vercel.app/)       |   ✅   |
 | MealPlan Studio | [Repository](https://github.com/mohamedemad-basha/mealplan-studio) | [🔗 Demo](https://mealplan-studio-basha.vercel.app/) |   ✅   |
-
 
 > More projects will be added as I continue learning and building with React.
 
@@ -66,6 +65,7 @@ Projects I built independently to apply and extend the React concepts I learned.
 | 08  | Text Expander      | `challenge-08-text-expender`          | State, Props, Event Handling                               |   ✅   |
 | 09  | Currency Converter | `challenge-09-currency-converter`     | `useEffect`, Data Fetching, Controlled Inputs, State       |   ✅   |
 | 10  | useGeolocation     | `challenge-10-usegeolocation`         | Custom Hooks, `useState`, Browser Geolocation API          |   ✅   |
+| 11  | Bank Account       | `challenge-11-bank-account`           | `useReducer`, State Transitions, Actions, Reducer Logic    |   ✅   |
 
 > More challenges will be added as I continue learning React.
 
@@ -95,6 +95,7 @@ react-challenges/
 ├── challenge-08-text-expender/
 ├── challenge-09-currency-converter/
 ├── challenge-10-usegeolocation/
+├── challenge-11-bank-account/
 │
 └── README.md
 ```
