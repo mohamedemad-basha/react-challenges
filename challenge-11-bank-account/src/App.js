@@ -46,6 +46,8 @@ function reducer(state, action) {
       };
 
     case "withdraw":
+      if (action.payload > state.balance) return state;
+
       return {
         ...state,
         balance: state.balance - action.payload,
